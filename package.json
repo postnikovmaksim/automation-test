@@ -1,0 +1,16 @@
+{
+  "name": "automation-test",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "mocha --reporter list --timeout 10000"
+  },
+  "dependencies": {
+    "@moedelo/eslint-config-md": "^2.1.2",
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0",
+    "moment": "^2.22.2",
+    "puppeteer": "^1.9.0",
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.5"
+  }
+}
